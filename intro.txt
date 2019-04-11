@@ -1,0 +1,34 @@
+
+Netmiko commonly-used methods:
+
+net_connect.send_command() - Send command down the channel, return output back (pattern based)
+net_connect.send_command_timing() - Send command down the channel, return output back (timing based)
+net_connect.send_config_set() - Send configuration commands to remote device
+net_connect.send_config_from_file() - Send configuration commands loaded from a file
+net_connect.save_config() - Save the running-config to the startup-config
+net_connect.enable() - Enter enable mode
+net_connect.find_prompt() - Return the current router prompt
+net_connect.commit() - Execute a commit action on Juniper and IOS-XR
+net_connect.disconnect() - Close the connection
+net_connect.write_channel() - Low-level write of the channel
+net_connect.read_channel() - Low-level write of the channel
+
+
+pip install netmiko
+pip install napalm
+pip install paramiko
+pip install ansible
+
+
+import jinja
+import yaml
+import 
+
+Hank Preston : Learn network programmability basics (6 modules) : intro
+python : masterclass : basics 3 courses
+		 basics for developer
+		 david bombal
+		 
+ansible : into network programming
+linux basics
+
