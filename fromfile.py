@@ -20,7 +20,7 @@ cisco1 = {
 		
 all_devices = [arista1, cisco1]
 
-with open('D:\pycharm\showconf.txt') as f:
+with open('D:\pycharm\showconf.txt') as f:  # path of the file can be anything
 	lines = f.read().splitlines()
 print(lines)
 
