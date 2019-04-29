@@ -1,0 +1,5 @@
+show ip int brief
+show vlan
+show protocol
+show version
+show hostname
